@@ -8,8 +8,8 @@ module.exports = function (passport) {
       {
         clientID: "657839729275-o3d2tbbkhv2d5vrpc08tia0c6btca2rl.apps.googleusercontent.com",
         clientSecret: "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",
-//         callbackURL: '/auth/google/callback',
-        callbackURL:"https://collab-mjro.onrender.com"
+        callbackURL: '/auth/google/callback',
+//         callbackURL:"https://collab-mjro.onrender.com"
       },
       async (accessToken, refreshToken, profile, done) => {
         console.log(profile)
